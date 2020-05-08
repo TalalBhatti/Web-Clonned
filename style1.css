@@ -300,6 +300,21 @@ img.image {
     padding: 20px;
 }
 
+
+/* Figures */
+
+.figures {
+    background-color: rgba(36, 79, 242, 0.8);
+    max-width: 100%;
+    padding: 50px;
+    color: white;
+}
+
+img.last {
+    /* width: 150px; */
+    height: 40px;
+}
+
 @media only screen and (max-width: 600px) {
     p.Par {
         font-size: 12px;
@@ -361,6 +376,9 @@ img.image {
     }
     .navbar-dark .navbar-nav .nav-link {
         color: black;
+    }
+    .funfact.text-center {
+        padding: 20px;
     }
 }
 
